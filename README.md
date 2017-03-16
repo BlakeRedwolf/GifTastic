@@ -21,11 +21,14 @@ Using the GIPHY API to make a dynamic web page that populates with gifs by makin
 
 ## Technologies Used
 #### Use bullets to list out the technologies used. For example,
+- HTML
+- CSS
+- Bootstrap
+- Javascript
 - Jquery for Dom Manipulation
 - AJAX for API GET requests
 
 ## Code Explaination
-- Here, you can either provide a brief summary about your code and perhaps what you learned or you can go into specif detail about how you tackled certain tasks.
-- Use code snippets for placing example code
+- Went through all my logic and could not for the life of me figure out what the problem was with the buttons and images. Turns out it was a missing ) in my document.ready function... :o
 
 -------------
