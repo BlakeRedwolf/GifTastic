@@ -13,7 +13,7 @@ $(document).ready(function() {
     for(var i = 0; i < topics.length; i++) {
       var b = $("<button>");
       
-      b.attr('class', 'button btn btn-lg');
+      b.attr('class', 'button btn btn-danger');
       b.attr('data-name', topics[i]);
       b.text(topics[i]);
       $("#buttons").append(b);
@@ -38,7 +38,7 @@ $(document).ready(function() {
         p.text('Rating ' + response.data[i].rating);
         p.attr('class', 'text-center');
         div.attr('class', 'div-gif');
-        img.attr('class', 'gif')
+        img.attr('class', 'gif');
         img.attr('data-state', 'still');
         img.attr('data-still', response.data[i].images.fixed_width_still.url);
         img.attr('data-animate', response.data[i].images.fixed_width.url);
